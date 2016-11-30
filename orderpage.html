@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Man BOX</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Latest minified bootstrap CSS -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/order.css">
+</head>
+<body>
+	<!-- Navbar -->
+	<nav class="navbar navbar-inverse navbar-fixed-top" id="my-navbar">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+
+				<a href="" class="navbar-brand">Man BOX</a>
+			</div>
+			<div class="collapse navbar-collapse" id="navbar-collapse">
+				<ul class="nav navbar-nav">
+					<li><a href="index.html">Product</a>
+					<li><a href="gallery.html">Gallery</a>
+					<li><a href="contact.html">Contact Us</a>
+					<li><a href="orderpage.html">Order</a>
+					<li><a href="about.html">CV</a>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!-- End of navbar -->
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	</div>
+	<form action="action_page.php" method="post">
+		<fieldset>
+			<legend>Personal Information</legend>
+				<div>
+					<img src="images/rms-logo.svg">
+				</div>
+		<br>
+		<br>
+		First name: <br>
+			<input type="text" name="firstname" value="" required>*
+		<br>
+		<br>
+		Surname: <br>
+			<input type="text" name="surname" value="" required>*
+		<br>
+		<br>
+		E-mail address: <br>
+			<input type="email" name="email" value="" required>*
+		<br>
+		<br>
+		Address: <br>
+			<input type="text" name="address" value="" required>*
+		<br>
+		<br>
+			<input type="text" name="address" value="">
+		<br>
+		<br>
+			<input type="text" name="address" value="">
+		<br>
+		<br>
+			Leave a comment below:<br>
+			<textarea name="message" rows="10" cols="40">
+			</textarea>
+		<br>
+		<br>
+		What is your gender? <br>
+		    <input type="radio" name="gender" value="male" checked> Male<br>
+  			<input type="radio" name="gender" value="female"> Female<br>
+  			<input type="radio" name="gender" value="Donotwishtoanswer."> Do not wish to answer
+  		<br>
+  		</fieldset>
+  		<br>
+  		<br>
+  			(All fields with * sign must be entered)
+  		<br>
+  		<br>
+  			<fieldset>
+  				<legend>Choose your package</legend>
+  				<br>
+  				<br>
+		  		<select name="package" required>
+		  			<option value="9.99">Box for 9.99 EUR / Value of 59.99 EUR</option>
+		  			<option value="15,99">Box for 15.99 EUR / Value of 79.99 EUR</option>
+		  			<option value="17.99">Box for 17.99 EUR / Value of 89.99 EUR</option>
+		  			<option value="19.99">Box for 19.99 EUR / Value of 99.99 EUR</option>
+				</select>*
+				<br>
+				<br>
+				<br>
+				 <input type="checkbox" name="accept" value="Accept" required> To continue you must accept our rules. Please tick the box to continue<br>
+				<br>
+				<input type="submit" value="ORDER">
+				<br>
+				<br>
+  				<br>
+			</fieldset>
+	</form>
+
+		<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<!-- Latest minified bootstrap JavaScript -->
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+</html>
